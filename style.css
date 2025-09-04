@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Manrope:wght@200..800&display=swap');
+:root{
+    --manrope:"Manrope", sans-serif;
+    --cinzel:"Cinzel", serif;
+}
+*{
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6, a{
+    font-family:var(--cinzel);
+}
+p{
+    font-family: var(--manrope);
+    
+}
+.container{
+    width: 1200px;
+}
+.container-fluid{
+    width: 100%;
+}
+.row{
+    margin: 0px -15px;
+}
+.col-sm-1 {
+    width: 8.333%;
+}
+
+.col-sm-2 {
+    width: 16.666%;
+}
+
+.col-sm-3 {
+    width: 25%;
+}
+
+.col-sm-4 {
+    width: 33.332%;
+}
+
+.col-sm-5 {
+    width: 41.665%;
+}
+
+.col-sm-6 {
+    width: 50%;
+}
+
+.col-sm-7 {
+    width: 58.331%;
+}
+
+.col-sm-8 {
+    width: 66.664%;
+}
+
+.col-sm-9 {
+    width: 74.997%;
+}
+
+.col-sm-10 {
+    width: 83.33%;
+}
+
+.col-sm-11 {
+    width: 91.663%;
+}
+
+.col-sm-12 {
+    width: 100%;
+}
+
+.col-sm-1, .col-sm-2 ,.col-sm-3 ,.col-sm-4 ,.col-sm-5 ,.col-sm-6 ,.col-sm-7 ,.col-sm-8 ,.col-sm-9 ,.col-sm-10 ,.col-sm-11 , .col-sm-12 {
+     padding: 0px 15px;
+}
+.d-flex{
+    display: flex;
+}
+
+
+
+.contact_details {
+    background-image:linear-gradient(#00000050,#00000060),url(img/contact_bg.jpg);
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit:scale-down;
+    align-items: center;
+}
+
+.cont-cont {
+    text-align: center;
+}
+
+
+
+.cont-cont p {
+    font-weight: 400;
+    color: white;
+    font-size: 24px;
+    line-height: 40px;
+    padding: 7px 0px;
+}
+
+.cotent-icon {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 36px;
+}
+
+.form_about {
+    padding: 90px 0px;
+}
+
+.cotent h1 {
+    font-size: 39px;
+    margin-top: 29px;
+}
+
+.cotent p {
+    font-size: 16px;
+    line-height: 22px;
+    padding: 18px 0px;
+}
+
+.call {
+    margin-left: 0px;
+}
+
+.cotent-icon {
+    padding: 26px 0px;
+}
+
+.call-icon i {
+    background-color: #97ad98;
+    color: white;
+    padding: 10px 8px;
+    margin: 0px 15px;
+    font-size: 21px;
+    border-radius: 10px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+}
+
+
+
+.call-content p {
+    padding: 0px 0px;
+}
+
+.call-content h3 {
+    font-size: 16px;
+}
+
+.call-content p {
+    font-size: 14px;
+}
+
+.greyline {
+    border: 1px solid #c9c8c8;
+    width: 100%;
+    left: 0px;
+    display: block;
+    margin: 18px 0px;
+}
+
+.media-3 h4 {
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 18px;
+}
+
+.media-icons {
+    margin: 0px 72px;
+}
+
+.media-icons a {
+    margin: 0px 8px;
+    color: white;
+    background-color: black;
+    padding: 4px 5px;
+    border-radius: 7px;
+}
+
+.media-3 {
+    padding: 19px 0px;
+}
+
+
+.form_area {
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  max-width: 600px;
+  margin: 0 auto;
+  background: #fff;
+  font-family: var(--nunito, sans-serif);
+}
+
+.form_fill {
+  margin-bottom: 20px;
+}
+
+.form_fill label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #333;
+}
+
+
+.form_area input[type="text"],
+.form_area input[type="email"],
+.form_area input[type="tel"],
+.form_area textarea {
+    width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 15px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.form_area input:focus,
+.form_area textarea:focus {
+  border-color: #97ad98;
+}
+
+.form_area textarea {
+  resize: none;
+  height: 120px;
+}
+
+.form_btn {
+  margin-top: 15px;
+}
+
+.form_btn input[type="submit"] {
+  width: 100%; 
+  background-color: #97ad98;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.form_btn input[type="submit"]:hover {
+  background-color: #596c5a;
+}
+
+.iframe {
+    display: flex;
+    padding-bottom: 70px;
+}
